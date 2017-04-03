@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/anhtuong/Github/Foody/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/anhtuong/Github/Foody/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_5aa60794e018efceff639717638d95534b07ed21/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/anhtuong/Github/Foody/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="445328c65b2501d990bbc4de450823395e989bc7">
+        <dex dex="/Users/anhtuong/Github/Foody/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9d6ba645e826c2b0bf577296b56198195bbf2f0c/classes.dex" />
+    </item>
+
+</items>
