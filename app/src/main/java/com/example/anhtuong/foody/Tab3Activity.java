@@ -5,6 +5,9 @@ import android.content.Context;
 import android.os.Bundle;
 import android.widget.ListView;
 
+import com.example.anhtuong.foody.AdapterTab3;
+import com.example.anhtuong.foody.R;
+
 import java.util.ArrayList;
 
 public class Tab3Activity extends Activity {

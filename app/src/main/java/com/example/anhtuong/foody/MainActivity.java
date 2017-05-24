@@ -5,7 +5,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
@@ -15,15 +14,15 @@ import android.widget.LinearLayout;
 import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import static android.R.attr.onClick;
 import static android.R.color.black;
 import static android.R.id.tabhost;
-import static android.icu.lang.UCharacter.GraphemeClusterBreak.T;
 
 @SuppressWarnings("deprecation")
 public class MainActivity extends TabActivity {
+
+    //
+    public static int lnFoodFlag;
 
     // Cấu hình các button và tabhost
     TabHost TabHostWindow;
@@ -35,6 +34,7 @@ public class MainActivity extends TabActivity {
     ImageButton btnca;
     ImageButton btnda;
     int clickNumber[] = {1, 0, 0};
+    public static int foodFlag = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,7 +47,13 @@ public class MainActivity extends TabActivity {
         tvPlace =(TextView)findViewById(R.id.tvPlace);
         tvFood = (TextView)findViewById(R.id.tvFood);
 
-        // Sự kiện click vafo toggle button
+        // Mặc định vừa khởi động ứng dụng là toogle Ở đâu active
+
+
+        // Corner radius cho toogle button trên đầu
+
+
+        // Sự kiện click vào toggle button
         lnPlace.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -235,7 +241,5 @@ public class MainActivity extends TabActivity {
 
         //    else
         //tabhost.getTabWidget().getChildAt(tabhost.getCurrentTab()).setBackgroundColor(Color.parseColor("FFFFFF")); // selected but show as unselected with white color
-
-
     }
 }
